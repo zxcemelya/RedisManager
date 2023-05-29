@@ -15,7 +15,8 @@ public class RedisService implements IRedis {
     public static Jedis newJedisInstance() {
         return new Jedis(ConnectionConstants.DOMAIN.getValue(), 6379);
     }
-
+    
+    @Override
     public void authenticateJedis(@NonNull Jedis jedis) {
         jedis.auth(ConnectionConstants.PASSWORD.getValue());
     }
