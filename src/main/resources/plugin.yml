@@ -1,0 +1,9 @@
+name: RedisManager
+version: '${project.version}'
+main: me.krutikov.redismanager.Main
+commands:
+  rediscontrol:
+    aliases:
+      - rc
+      - redis
+      - core
