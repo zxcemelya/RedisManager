@@ -8,7 +8,7 @@ import lombok.Getter;
 public enum ConnectionConstants {
 
     DOMAIN("127.0.0.1"),
-    PASSWORD("xFJnAZ1__1=?daDsdzggFF");
+    PASSWORD("ыы пашел нахуй");
 
     private final String value;
 }
